@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C02E0F91E9302EF009EFBB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E0F81E9302EF009EFBB2 /* AppDelegate.swift */; };
+		5C02E0FB1E9302EF009EFBB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E0FA1E9302EF009EFBB2 /* ViewController.swift */; };
+		5C02E1001E9302EF009EFBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C02E0FF1E9302EF009EFBB2 /* Assets.xcassets */; };
+		5C02E1031E9302EF009EFBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C02E1011E9302EF009EFBB2 /* LaunchScreen.storyboard */; };
+		5C02E10E1E9302EF009EFBB2 /* CAMixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E10D1E9302EF009EFBB2 /* CAMixerTests.swift */; };
+		5C02E1191E9302EF009EFBB2 /* CAMixerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E1181E9302EF009EFBB2 /* CAMixerUITests.swift */; };
+		5C02E12E1E930317009EFBB2 /* AudioEngineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E1281E930317009EFBB2 /* AudioEngineManager.m */; };
+		5C02E12F1E930317009EFBB2 /* AudioSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E12B1E930317009EFBB2 /* AudioSessionManager.m */; };
+		5C02E1301E930317009EFBB2 /* CAManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E12D1E930317009EFBB2 /* CAManager.m */; };
+		5C02E1331E930384009EFBB2 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02E1321E930384009EFBB2 /* FrequencyView.swift */; };
+		5C02E1361E93138E009EFBB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C02E1341E93138E009EFBB2 /* Main.storyboard */; };
+		5C02E13E1E931B2D009EFBB2 /* DrumsMonoSTP.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5C02E13C1E931B2D009EFBB2 /* DrumsMonoSTP.aif */; };
+		5C02E13F1E931B2D009EFBB2 /* GuitarMonoSTP.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5C02E13D1E931B2D009EFBB2 /* GuitarMonoSTP.aif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C02E10A1E9302EF009EFBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C02E0ED1E9302EF009EFBB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C02E0F41E9302EF009EFBB2;
+			remoteInfo = CAMixer;
+		};
+		5C02E1151E9302EF009EFBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C02E0ED1E9302EF009EFBB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C02E0F41E9302EF009EFBB2;
+			remoteInfo = CAMixer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C02E0F51E9302EF009EFBB2 /* CAMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02E0F81E9302EF009EFBB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C02E0FA1E9302EF009EFBB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C02E0FF1E9302EF009EFBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C02E1021E9302EF009EFBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C02E1041E9302EF009EFBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C02E1091E9302EF009EFBB2 /* CAMixerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAMixerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02E10D1E9302EF009EFBB2 /* CAMixerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMixerTests.swift; sourceTree = "<group>"; };
+		5C02E10F1E9302EF009EFBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C02E1141E9302EF009EFBB2 /* CAMixerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAMixerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02E1181E9302EF009EFBB2 /* CAMixerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMixerUITests.swift; sourceTree = "<group>"; };
+		5C02E11A1E9302EF009EFBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C02E1261E930315009EFBB2 /* CAMixer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAMixer-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C02E1271E930317009EFBB2 /* AudioEngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngineManager.h; sourceTree = "<group>"; };
+		5C02E1281E930317009EFBB2 /* AudioEngineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEngineManager.m; sourceTree = "<group>"; };
+		5C02E1291E930317009EFBB2 /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		5C02E12A1E930317009EFBB2 /* AudioSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSessionManager.h; sourceTree = "<group>"; };
+		5C02E12B1E930317009EFBB2 /* AudioSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSessionManager.m; sourceTree = "<group>"; };
+		5C02E12C1E930317009EFBB2 /* CAManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAManager.h; sourceTree = "<group>"; };
+		5C02E12D1E930317009EFBB2 /* CAManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAManager.m; sourceTree = "<group>"; };
+		5C02E1321E930384009EFBB2 /* FrequencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequencyView.swift; sourceTree = "<group>"; };
+		5C02E1351E93138E009EFBB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C02E1391E931A21009EFBB2 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
+		5C02E13C1E931B2D009EFBB2 /* DrumsMonoSTP.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = DrumsMonoSTP.aif; path = CAMixer/Audio/DrumsMonoSTP.aif; sourceTree = "<group>"; };
+		5C02E13D1E931B2D009EFBB2 /* GuitarMonoSTP.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = GuitarMonoSTP.aif; path = CAMixer/Audio/GuitarMonoSTP.aif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C02E0F21E9302EF009EFBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02E1061E9302EF009EFBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02E1111E9302EF009EFBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C02E0EC1E9302EF009EFBB2 = {
+			isa = PBXGroup;
+			children = (
+				5C02E13C1E931B2D009EFBB2 /* DrumsMonoSTP.aif */,
+				5C02E13D1E931B2D009EFBB2 /* GuitarMonoSTP.aif */,
+				5C02E0F71E9302EF009EFBB2 /* CAMixer */,
+				5C02E10C1E9302EF009EFBB2 /* CAMixerTests */,
+				5C02E1171E9302EF009EFBB2 /* CAMixerUITests */,
+				5C02E0F61E9302EF009EFBB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C02E0F61E9302EF009EFBB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C02E0F51E9302EF009EFBB2 /* CAMixer.app */,
+				5C02E1091E9302EF009EFBB2 /* CAMixerTests.xctest */,
+				5C02E1141E9302EF009EFBB2 /* CAMixerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C02E0F71E9302EF009EFBB2 /* CAMixer */ = {
+			isa = PBXGroup;
+			children = (
+				5C02E1391E931A21009EFBB2 /* Audio */,
+				5C02E1311E93031E009EFBB2 /* CAInterface */,
+				5C02E0F81E9302EF009EFBB2 /* AppDelegate.swift */,
+				5C02E0FA1E9302EF009EFBB2 /* ViewController.swift */,
+				5C02E1321E930384009EFBB2 /* FrequencyView.swift */,
+				5C02E1341E93138E009EFBB2 /* Main.storyboard */,
+				5C02E0FF1E9302EF009EFBB2 /* Assets.xcassets */,
+				5C02E1011E9302EF009EFBB2 /* LaunchScreen.storyboard */,
+				5C02E1041E9302EF009EFBB2 /* Info.plist */,
+			);
+			path = CAMixer;
+			sourceTree = "<group>";
+		};
+		5C02E10C1E9302EF009EFBB2 /* CAMixerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C02E10D1E9302EF009EFBB2 /* CAMixerTests.swift */,
+				5C02E10F1E9302EF009EFBB2 /* Info.plist */,
+			);
+			path = CAMixerTests;
+			sourceTree = "<group>";
+		};
+		5C02E1171E9302EF009EFBB2 /* CAMixerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C02E1181E9302EF009EFBB2 /* CAMixerUITests.swift */,
+				5C02E11A1E9302EF009EFBB2 /* Info.plist */,
+			);
+			path = CAMixerUITests;
+			sourceTree = "<group>";
+		};
+		5C02E1311E93031E009EFBB2 /* CAInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5C02E1271E930317009EFBB2 /* AudioEngineManager.h */,
+				5C02E1281E930317009EFBB2 /* AudioEngineManager.m */,
+				5C02E1291E930317009EFBB2 /* AudioManager.h */,
+				5C02E12A1E930317009EFBB2 /* AudioSessionManager.h */,
+				5C02E12B1E930317009EFBB2 /* AudioSessionManager.m */,
+				5C02E12C1E930317009EFBB2 /* CAManager.h */,
+				5C02E12D1E930317009EFBB2 /* CAManager.m */,
+				5C02E1261E930315009EFBB2 /* CAMixer-Bridging-Header.h */,
+			);
+			name = CAInterface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C02E0F41E9302EF009EFBB2 /* CAMixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C02E11D1E9302EF009EFBB2 /* Build configuration list for PBXNativeTarget "CAMixer" */;
+			buildPhases = (
+				5C02E0F11E9302EF009EFBB2 /* Sources */,
+				5C02E0F21E9302EF009EFBB2 /* Frameworks */,
+				5C02E0F31E9302EF009EFBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAMixer;
+			productName = CAMixer;
+			productReference = 5C02E0F51E9302EF009EFBB2 /* CAMixer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C02E1081E9302EF009EFBB2 /* CAMixerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C02E1201E9302EF009EFBB2 /* Build configuration list for PBXNativeTarget "CAMixerTests" */;
+			buildPhases = (
+				5C02E1051E9302EF009EFBB2 /* Sources */,
+				5C02E1061E9302EF009EFBB2 /* Frameworks */,
+				5C02E1071E9302EF009EFBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C02E10B1E9302EF009EFBB2 /* PBXTargetDependency */,
+			);
+			name = CAMixerTests;
+			productName = CAMixerTests;
+			productReference = 5C02E1091E9302EF009EFBB2 /* CAMixerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C02E1131E9302EF009EFBB2 /* CAMixerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C02E1231E9302EF009EFBB2 /* Build configuration list for PBXNativeTarget "CAMixerUITests" */;
+			buildPhases = (
+				5C02E1101E9302EF009EFBB2 /* Sources */,
+				5C02E1111E9302EF009EFBB2 /* Frameworks */,
+				5C02E1121E9302EF009EFBB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C02E1161E9302EF009EFBB2 /* PBXTargetDependency */,
+			);
+			name = CAMixerUITests;
+			productName = CAMixerUITests;
+			productReference = 5C02E1141E9302EF009EFBB2 /* CAMixerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C02E0ED1E9302EF009EFBB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matthew S. Hill";
+				TargetAttributes = {
+					5C02E0F41E9302EF009EFBB2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45X27J8L3K;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					5C02E1081E9302EF009EFBB2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45X27J8L3K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C02E0F41E9302EF009EFBB2;
+					};
+					5C02E1131E9302EF009EFBB2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 45X27J8L3K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C02E0F41E9302EF009EFBB2;
+					};
+				};
+			};
+			buildConfigurationList = 5C02E0F01E9302EF009EFBB2 /* Build configuration list for PBXProject "CAMixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C02E0EC1E9302EF009EFBB2;
+			productRefGroup = 5C02E0F61E9302EF009EFBB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C02E0F41E9302EF009EFBB2 /* CAMixer */,
+				5C02E1081E9302EF009EFBB2 /* CAMixerTests */,
+				5C02E1131E9302EF009EFBB2 /* CAMixerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C02E0F31E9302EF009EFBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02E1361E93138E009EFBB2 /* Main.storyboard in Resources */,
+				5C02E1031E9302EF009EFBB2 /* LaunchScreen.storyboard in Resources */,
+				5C02E1001E9302EF009EFBB2 /* Assets.xcassets in Resources */,
+				5C02E13E1E931B2D009EFBB2 /* DrumsMonoSTP.aif in Resources */,
+				5C02E13F1E931B2D009EFBB2 /* GuitarMonoSTP.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02E1071E9302EF009EFBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02E1121E9302EF009EFBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C02E0F11E9302EF009EFBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02E0FB1E9302EF009EFBB2 /* ViewController.swift in Sources */,
+				5C02E12F1E930317009EFBB2 /* AudioSessionManager.m in Sources */,
+				5C02E0F91E9302EF009EFBB2 /* AppDelegate.swift in Sources */,
+				5C02E1331E930384009EFBB2 /* FrequencyView.swift in Sources */,
+				5C02E1301E930317009EFBB2 /* CAManager.m in Sources */,
+				5C02E12E1E930317009EFBB2 /* AudioEngineManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02E1051E9302EF009EFBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02E10E1E9302EF009EFBB2 /* CAMixerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C02E1101E9302EF009EFBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C02E1191E9302EF009EFBB2 /* CAMixerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C02E10B1E9302EF009EFBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C02E0F41E9302EF009EFBB2 /* CAMixer */;
+			targetProxy = 5C02E10A1E9302EF009EFBB2 /* PBXContainerItemProxy */;
+		};
+		5C02E1161E9302EF009EFBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C02E0F41E9302EF009EFBB2 /* CAMixer */;
+			targetProxy = 5C02E1151E9302EF009EFBB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C02E1011E9302EF009EFBB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C02E1021E9302EF009EFBB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5C02E1341E93138E009EFBB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C02E1351E93138E009EFBB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C02E11B1E9302EF009EFBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C02E11C1E9302EF009EFBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C02E11E1E9302EF009EFBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = CAMixer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.CAMixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CAMixer/CAMixer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5C02E11F1E9302EF009EFBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = CAMixer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.CAMixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CAMixer/CAMixer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5C02E1211E9302EF009EFBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = CAMixerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.CAMixerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAMixer.app/CAMixer";
+			};
+			name = Debug;
+		};
+		5C02E1221E9302EF009EFBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = CAMixerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.CAMixerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAMixer.app/CAMixer";
+			};
+			name = Release;
+		};
+		5C02E1241E9302EF009EFBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = CAMixerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.CAMixerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CAMixer;
+			};
+			name = Debug;
+		};
+		5C02E1251E9302EF009EFBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45X27J8L3K;
+				INFOPLIST_FILE = CAMixerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swill.CAMixerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CAMixer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C02E0F01E9302EF009EFBB2 /* Build configuration list for PBXProject "CAMixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02E11B1E9302EF009EFBB2 /* Debug */,
+				5C02E11C1E9302EF009EFBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C02E11D1E9302EF009EFBB2 /* Build configuration list for PBXNativeTarget "CAMixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02E11E1E9302EF009EFBB2 /* Debug */,
+				5C02E11F1E9302EF009EFBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C02E1201E9302EF009EFBB2 /* Build configuration list for PBXNativeTarget "CAMixerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02E1211E9302EF009EFBB2 /* Debug */,
+				5C02E1221E9302EF009EFBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C02E1231E9302EF009EFBB2 /* Build configuration list for PBXNativeTarget "CAMixerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C02E1241E9302EF009EFBB2 /* Debug */,
+				5C02E1251E9302EF009EFBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C02E0ED1E9302EF009EFBB2 /* Project object */;
+}
